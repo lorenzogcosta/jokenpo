@@ -1,0 +1,95 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    cursor: default;
+}
+
+#main {}
+
+#title{
+    text-align: center;
+    color: #2d3436;
+}
+
+#score {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#player, #computer {
+    position: relative;
+    flex-grow: 1;
+    color: #fff;
+    padding: 20px;
+}
+
+#player h2, #computer h2 {
+    margin: 0;
+    padding: 0;
+}
+
+#player {
+    background-color: blue;
+    border-radius: 5px;
+}
+
+#player #player-choice ,#computer #computer-choice {
+    list-style: none;
+    text-align: center;
+    margin: 30px 0 0;
+    padding: 0;
+}
+
+#player #player-choice li, #computer #computer-choice li {
+    display: inline;
+    padding: 0  15px;
+}
+
+#player #player-choice a,#computer #computer-choice a {
+    opacity: .5;
+}
+
+#player #player-choice a:hover,#computer #computer-choice a:hover {
+    opacity: 100%;
+}
+
+#player-score, #computer-score {
+    font-size: 52px;
+    position: absolute;
+    top: 8px;
+}
+
+#player-score{
+    right: 20px;
+}
+
+#player-name, #computer-name {
+    font-size: 24px;
+}
+
+#computer-name{
+    text-align: right;
+}
+
+#player #player-choice img, #computer #computer-choice img {
+    max-width: 80px;
+}
+
+#versus {
+    font-size: 80px;
+    padding: 0 20px;
+}
+
+#computer {
+    background-color: red;
+}
+
+#message {
+    background-color: rgb(99, 99, 99) ;
+    text-align: center;
+    font-size: 24px;
+    border-radius: 5px;
+    margin: 20px 0;
+    padding: 20px;
+}
