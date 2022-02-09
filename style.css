@@ -50,8 +50,8 @@
     opacity: .5;
 }
 
-#player #player-choice a:hover,#computer #computer-choice a:hover {
-    opacity: 100%;
+#player #player-choice a:hover, #player #player-choice a.selected,#computer #computer-choice a.selected {
+    opacity: 1;
 }
 
 #player-score, #computer-score {
